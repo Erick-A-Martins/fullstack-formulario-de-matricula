@@ -24,3 +24,10 @@ fieldset + fieldset {
     display: flex;
     gap: 1rem;
 }
+
+@media (max-width: 768px) {
+    .actions-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+}
